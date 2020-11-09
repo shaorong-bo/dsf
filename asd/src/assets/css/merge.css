@@ -1,0 +1,172 @@
+/* 广告部分 */
+.banner-download {
+    position: relative;
+    height: 100%;
+	border-bottom: 1px solid #eef;
+}
+.banner-download .img-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.call-app-btn {
+    position: absolute;
+    left: 17%;
+    bottom: 10%;
+    width: 31%;
+    height: 34%;
+    z-index: 1;
+}
+.download-btn {
+    position: absolute;
+    right: 17%;
+    bottom: 10%;
+    width: 31%;
+    height: 34%;
+    z-index: 1;
+}
+
+
+/* 猜你喜欢 */
+.guess-like {
+    border-top: 1px solid #DDD8CE;
+    margin-bottom: 0;
+    background-color: #fff;
+    min-height: 5rem;
+    position: relative;
+}
+dl.list {
+    margin-bottom: 0;
+    background-color: #fff;
+}
+dl.list dt, dl.list dd {
+    margin: 0;
+    border-bottom: 1px dashed #DDD8CE;
+    overflow: hidden;
+    font-size: inherit;
+    font-weight: 400;
+	padding: 0.6rem;
+    position: relative;
+}
+dl.list dt {
+    font-size: 1rem;
+    padding: .6rem;
+    color: #333;
+	text-align: left;
+}
+dl.list .dd-padding, dl.list dt, dl.list dd>.react {
+	width: 100%;
+}
+.dealcard, .cinemacard {
+    box-sizing: border-box;
+}
+.dealcard-img {
+    position: absolute;
+    width: 6rem;
+    height: 5.4rem;
+    text-align: center;
+    overflow: hidden;
+}
+.imgbox {
+}
+.dealcard-img > img {
+    width: 100%;
+    border: 0;
+}
+.imgbox img {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+.dealcard .dealcard-block-right {
+    margin-left: 6.8rem;
+    position: relative;
+}
+.dealcard .dealcard-brand, .cinemacard .cinemacard-brand {
+    padding-top: .1rem;
+    margin-bottom: .12rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+	text-align: left;
+}
+.single-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dealcard .title{
+    font-size: .24rem;
+    margin-bottom: 1rem;
+    color: #666;
+    text-overflow: ellipsis;
+	margin-top: 0.4rem;
+    overflow: hidden;
+	white-space: nowrap;
+}
+.text-block {
+    line-height: 1.41;
+    text-align: justify;
+}
+.dealcard .price {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.dealcard .price, .cinemacard .price {
+    color: #666;
+    position: relative;
+	text-align: left;
+}
+.dealcard .price>strong, .cinemacard .price>strong, .dealcard .price .strong, .cinemacard .price .strong {
+    font-size: 1.38rem;
+    color: #06c1ae;
+}
+.dealcard .price>.strong-color, .cinemacard .price>.strong-color {
+    font-size: .26rem;
+    color: #06c1ae;
+}
+.dealcard .price del, .cinemacard .price del {
+    font-size: .24rem;
+}
+.dealcard .line-right, .cinemacard .price .line-right {
+    position: absolute;
+    top: .04rem;
+    right: 0;
+    font-size: .24rem;
+}
+
+/* loading more... */
+.db {
+    line-height: 1.8rem;
+}
+dl.list .db>.react {
+    color: #06c1ae;
+    padding: 0 .2rem;
+}
+.db .more {
+    position: relative;
+    padding: .3rem;
+    width: 100%;
+    box-sizing: border-box;
+	color: #06c1ae;
+    font-size: 1rem;
+	text-align: left;
+}
+.db .more i{
+	float: right;
+	margin: -0.2rem 0.4rem 0 0;
+}
+
+
+
+
+
+
+
+
+

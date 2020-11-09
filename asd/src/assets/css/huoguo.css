@@ -1,0 +1,16 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem 0 1rem;
+  border-bottom: 1px solid #d8d8d8;
+}
+.nav li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3px 0;
+  justify-content: space-around;
+}
+.nav li p span:last-child {
+  color: #de547d;
+}

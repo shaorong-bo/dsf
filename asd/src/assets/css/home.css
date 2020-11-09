@@ -1,0 +1,34 @@
+/* menu部分 */
+.menu{
+	height: 10rem;
+	padding: 0.4rem;
+}
+.mint-swipe-indicator.is-active{
+	background: #00ae76 !important;
+}
+.icon-list .icon {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 19%;
+    text-align: center;
+}
+.icon-list .icon>a {
+    padding: .2rem 0;
+}
+.icon-list .new-icon-circle {
+    display: block;
+    margin: auto;
+    margin-bottom: .14rem;
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 10rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: .5rem;
+    color: #fff;
+}
+.icon-list .icon-desc {
+    text-align: center;
+    font-size: .24rem;
+    color: #666;
+}

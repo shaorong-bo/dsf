@@ -1,0 +1,29 @@
+.sp {
+  color: red;
+}
+.spa {
+  width: 200px;
+}
+.Imga {
+  margin-top: 5px;
+}
+.lie {
+  border-top: 1px dotted #cdcdcd;
+}
+.lie a {
+  display: flex;
+  flex-direction: row;
+}
+.lie a h3 {
+  flex-grow: 2;
+  align-self: center;
+}
+.lie a .floa {
+  flex-grow: 1;
+  margin-top: 30px;
+}
+
+.hh {
+  margin-top: 5px;
+  color: #d2ae33;
+}
